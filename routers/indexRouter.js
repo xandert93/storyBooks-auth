@@ -5,8 +5,10 @@ const {
   renderDashboard,
 } = require('../controllers/indexController');
 
-router.get('/', renderLoginPage);
+const { ensureAuth, ensureGuest } = require('../middlewares/auth.js');
 
-router.get('/dashboard', renderDashboard);
+router.get('/', ensureGuest, renderLoginPage);
+
+router.get('/dashboard', ensureAuth, renderDashboard);
 
 module.exports = router;

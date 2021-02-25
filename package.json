@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xandert93/stories-auth.git"
+    "url": "git+https://github.com/xandert93/storyBooks-auth.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xandert93/stories-auth/issues"
+    "url": "https://github.com/xandert93/storyBooks-auth/issues"
   },
-  "homepage": "https://github.com/xandert93/stories-auth#readme",
+  "homepage": "https://github.com/xandert93/storyBooks-auth#readme",
   "dependencies": {
     "connect-mongo": "^4.1.0",
     "dotenv": "^8.2.0",
